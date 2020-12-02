@@ -66,25 +66,25 @@ header /* Disposition du header */
 
     /*Formulaire*/
 
-    h1 /* Taille police titre h1 */
+h1 /* Taille police titre h1 */
     {
         font-size: 1.1em;
     }
     
-    p /* Taille police et marge inférieure */
+p /* Taille police et marge inférieure */
     {
         font-size: 0.9em;
         margin-bottom: 30px;
     }
     
-    #formulaire /* Mise en page du formulaire de recherche */
+#formulaire /* Mise en page du formulaire de recherche */
     {
         display: flex;
         justify-content: left;
         align-items: center;
     }
     
-    #icon_localisation /* Mise en forme de l'icone localisation */
+#icon_localisation /* Mise en forme de l'icone localisation */
     {
         border:  0px solid #F2F2F2 ; /* Ajout d'une bordure */
         border-top-left-radius: 15px; /* Création de l'arrondi de la bordure */
@@ -94,14 +94,14 @@ header /* Disposition du header */
         padding: 10px;
     }
     
-    #destination /* Mise en forme du champs de recherche */
+#destination /* Mise en forme du champs de recherche */
     {
         border: solid 1px #F2F2F2;
         padding: 10px;
         margin: 0px;
     }
     
-    #rechercher /* Mise en forme du bouton rechercher */
+#rechercher /* Mise en forme du bouton rechercher */
     {
         border: solid 1px #0065FC;
         border-top-right-radius: 15px;
@@ -116,21 +116,21 @@ header /* Disposition du header */
     
         /* Filtres */
     
-    #bloc_filtres_1 /* Mise en page du bloc filtres */
+#bloc_filtres_1 /* Mise en page du bloc filtres */
     {
         display: flex;
         align-items: center;
         margin-bottom: 20px;
     }
     
-    #filtres /* Mise en forme du mot "filtres" */
+#filtres /* Mise en forme du mot "filtres" */
     {
         font-weight: bold;
         font-size: 0.8em;
         margin-right: 30px;
     }
     
-    #bloc_filtres_1_1
+#bloc_filtres_1_1
     {
         /* Mise en page */
         display: flex;
@@ -140,7 +140,7 @@ header /* Disposition du header */
         
     }
     
-    .bloc_filtres_1_1_1
+.bloc_filtres_1_1_1
     {
         /* Mise en page */
         display: flex;
@@ -155,7 +155,7 @@ header /* Disposition du header */
         padding-right: 20px;
     }
     
-    #icon_économique, #icon_familial, #icon_romantique, #icon_animaux
+#icon_économique, #icon_familial, #icon_romantique, #icon_animaux
     {
         /* Mise en page */
         display: flex;
@@ -171,12 +171,12 @@ header /* Disposition du header */
         height: 15px;
     }
     
-    .texte_filtres
+.texte_filtres
     {
         padding-left: 10px;
     }
     
-    .bloc_filtres_1_1_1:hover /*Mise en forme des filtres au survol*/
+.bloc_filtres_1_1_1:hover /*Mise en forme des filtres au survol*/
     {
         /* bordues */
         border-top: #F2F2F2 solid  2px;
@@ -190,14 +190,14 @@ header /* Disposition du header */
      
     }
     
-    #information /* Mise en page texte et icone information */
+#information /* Mise en page texte et icone information */
     {
         display: flex;
         justify-content: left;
         align-items: baseline;
     }
     
-    #icon_information /*Mise en forme icone information */
+#icon_information /*Mise en forme icone information */
     {
         font-size: 0.6em;
         color: #0065FC;
