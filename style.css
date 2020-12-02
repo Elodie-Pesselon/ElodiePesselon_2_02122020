@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'ralewayregular';
-    src: url('raleway-regular-webfont.woff2') format('woff2'),
-         url('raleway-regular-webfont.woff') format('woff');
+    src: url('fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('fonts/raleway-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -61,3 +61,150 @@ header /* Disposition du header */
     justify-content: flex-start;
     margin-bottom: 45px;
 }
+
+/* SECTION 1 */
+
+    /*Formulaire*/
+
+    h1 /* Taille police titre h1 */
+    {
+        font-size: 1.1em;
+    }
+    
+    p /* Taille police et marge inférieure */
+    {
+        font-size: 0.9em;
+        margin-bottom: 30px;
+    }
+    
+    #formulaire /* Mise en page du formulaire de recherche */
+    {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    #icon_localisation /* Mise en forme de l'icone localisation */
+    {
+        border:  0px solid #F2F2F2 ; /* Ajout d'une bordure */
+        border-top-left-radius: 15px; /* Création de l'arrondi de la bordure */
+        border-bottom-left-radius: 15px; /* Création de l'arrondi de la bordure */
+        background-color: #F2F2F2;
+        margin: 0px;
+        padding: 10px;
+    }
+    
+    #destination /* Mise en forme du champs de recherche */
+    {
+        border: solid 1px #F2F2F2;
+        padding: 10px;
+        margin: 0px;
+    }
+    
+    #rechercher /* Mise en forme du bouton rechercher */
+    {
+        border: solid 1px #0065FC;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px; 
+        background-color: #0065FC;
+        color: white;
+        font-size: 0.8em;
+        padding: 10px;
+        margin: 0px;
+    }
+    
+    
+        /* Filtres */
+    
+    #bloc_filtres_1 /* Mise en page du bloc filtres */
+    {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    #filtres /* Mise en forme du mot "filtres" */
+    {
+        font-weight: bold;
+        font-size: 0.8em;
+        margin-right: 30px;
+    }
+    
+    #bloc_filtres_1_1
+    {
+        /* Mise en page */
+        display: flex;
+        /* Mise en forme du texte */
+        font-weight: bold;
+        font-size: 0.8em;
+        
+    }
+    
+    .bloc_filtres_1_1_1
+    {
+        /* Mise en page */
+        display: flex;
+        align-items: center; 
+        /* bordues */
+        border-top: #F2F2F2 solid  2px;
+        border-bottom: #F2F2F2 solid  2px;
+        border-right: #F2F2F2 solid  2px;
+        border-radius: 80px; 
+        /* Marges et padding */
+        margin-right: 30px;
+        padding-right: 20px;
+    }
+    
+    #icon_économique, #icon_familial, #icon_romantique, #icon_animaux
+    {
+        /* Mise en page */
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        /* Mise en forme */
+        color: #0065FC;
+        border: #DEEBFF solid 1px;
+        border-radius: 100%;
+        background-color: #DEEBFF;
+        padding: 8px;
+        width: 15px;
+        height: 15px;
+    }
+    
+    .texte_filtres
+    {
+        padding-left: 10px;
+    }
+    
+    .bloc_filtres_1_1_1:hover /*Mise en forme des filtres au survol*/
+    {
+        /* bordues */
+        border-top: #F2F2F2 solid  2px;
+        border-bottom: #F2F2F2 solid  2px;
+        border-right: #F2F2F2 solid  2px;
+        border-radius: 80px; 
+        /* Marges et padding */
+        margin-right: 30px;
+        padding-right: 20px;
+        background-color: #F2F2F2;
+     
+    }
+    
+    #information /* Mise en page texte et icone information */
+    {
+        display: flex;
+        justify-content: left;
+        align-items: baseline;
+    }
+    
+    #icon_information /*Mise en forme icone information */
+    {
+        font-size: 0.6em;
+        color: #0065FC;
+        border: solid 1px #F2F2F2;
+        border-radius: 100%;
+        margin-right: 10px;
+        width: 10px;
+        height: 10px;
+        padding: 5px 5px 5px 5px;
+    }
