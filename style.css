@@ -191,7 +191,7 @@ p /* Taille police et marge inférieure */
      
     }
     
-    
+
     /* Information */
 
     #information /* Mise en page texte et icone information */
@@ -221,3 +221,85 @@ p /* Taille police et marge inférieure */
         height: 10px;
         
     }
+
+
+    /* SECTION 2 */
+
+    /* Bloc hébergement */
+
+#Hébergements_marsaille
+{
+    border: #F2F2F2 2px solid;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    padding: 30px;
+    width: 60%;
+}
+
+#titre_hébergements
+{
+    margin-bottom: 30px;
+}
+
+#bloc_photos_hébergements
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.photos_hébergements
+{
+    width: 100%;
+    height: 57%;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 5px;
+}
+
+#hébergement_cannebière, #hébergement_hôtel_port, #hébergement_hôtel_mouettes, #hébergement_hôtel_mer, #hébergement_auberge_panier, #hébergement_hôtel_amina
+{
+    border: solid 2px white;
+    border-radius: 20px;
+    background-color: white;
+    padding: 4px;
+    width: 29%;
+    max-height: 160px;
+    margin-bottom: 30px;
+}
+
+#star_bleue1, #star_bleue2, #star_bleue3, #star_bleue4, #star_bleue5, #star_bleue6, #star_bleue7, #star_bleue8, #star_bleue9, #star_bleue10, #star_bleue11, #star_bleue12, #star_bleue13, #star_bleue14, #star_bleue15, #star_bleue16, #star_bleue17, #star_bleue18, #star_bleue19, #star_bleue20, #star_bleue21, #star_bleue22, #star_bleue23, #star_bleue24
+{
+    color: #0065FC;
+}
+
+#star_grise1, #star_grise2, #star_grise3, #star_grise4, #star_grise5, #star_grise6
+{
+    color: #F2F2F2;
+}
+
+.texte
+{
+    margin: 4px;
+    font-size: 0.7em;
+}
+
+.texte1
+{
+    margin: 4px;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.prix
+{
+    font-weight: bold;
+}
+
+.texte_gras
+{
+    font-weight: bold;
+    margin-block-end: 0px;
+}
