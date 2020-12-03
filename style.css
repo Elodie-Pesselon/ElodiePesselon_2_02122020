@@ -31,7 +31,7 @@ main, header, footer /* Largeur de la page */
     color: black;
     text-decoration: none;
     margin-right: 30px;
-    padding-top: 10px;
+    padding-top: 20px;
     border-top: transparent solid 2px;
 }
 
@@ -41,7 +41,7 @@ main, header, footer /* Largeur de la page */
     color: #0065FC;
     text-decoration: none;
     margin-right: 30px;
-    padding-top: 12px;
+    padding-top: 22px;
 }
 
 #Hébergements:hover, #Activités:hover /* Mise en forme onglets du menu au survol */
@@ -53,6 +53,7 @@ main, header, footer /* Largeur de la page */
 #logo /* marge du logo*/
 {
     margin-right: auto;
+    padding-top: 8px;
 }
 
 header /* Disposition du header */
