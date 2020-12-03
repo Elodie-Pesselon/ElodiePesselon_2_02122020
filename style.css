@@ -259,7 +259,7 @@ p /* Taille police et marge inférieure */
     margin-bottom: 5px;
 }
 
-#hébergement_cannebière, #hébergement_hôtel_port, #hébergement_hôtel_mouettes, #hébergement_hôtel_mer, #hébergement_auberge_panier, #hébergement_hôtel_amina
+.bloc_hébergement_1_1
 {
     border: solid 2px white;
     border-radius: 20px;
