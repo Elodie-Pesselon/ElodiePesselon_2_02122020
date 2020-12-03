@@ -10,19 +10,18 @@
 body
 {
     margin: 0;
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
 }
+
 
 * /* Police de la page */
 {
     font-family: 'ralewayregular', Arial, Helvetica, sans-serif;
 }
 
-main, header, footer /* Largeur de la page */
-{
-    max-width: 1200px;
-    margin: auto;
-    width: 100%;
-}
+
 
 /* HEADER */
 
@@ -68,238 +67,321 @@ header /* Disposition du header */
     /*Formulaire*/
 
 h1 /* Taille police titre h1 */
-    {
-        font-size: 1.1em;
-    }
-    
-p /* Taille police et marge inférieure */
-    {
-        font-size: 0.9em;
-        margin-bottom: 30px;
-    }
-    
+{
+    font-size: 1.1em;
+}
+
+h1 + p /* Taille police et marge inférieure */
+{
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+
 #formulaire /* Mise en page du formulaire de recherche */
-    {
-        display: flex;
-        justify-content: left;
-        align-items: center;
-    }
-    
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
 #icon_localisation /* Mise en forme de l'icone localisation */
-    {
-        border:  0px solid #F2F2F2 ; /* Ajout d'une bordure */
-        border-top-left-radius: 15px; /* Création de l'arrondi de la bordure */
-        border-bottom-left-radius: 15px; /* Création de l'arrondi de la bordure */
-        background-color: #F2F2F2;
-        margin: 0px;
-        padding: 10px;
-    }
-    
+{
+    border:  0px solid #F2F2F2 ; /* Ajout d'une bordure */
+    border-top-left-radius: 12px; /* Création de l'arrondi de la bordure */
+    border-bottom-left-radius: 12px; /* Création de l'arrondi de la bordure */
+    background-color: #F2F2F2;
+    margin: 0px;
+    padding: 8px;
+}
+
 #destination /* Mise en forme du champs de recherche */
-    {
-        border: solid 1px #F2F2F2;
-        padding: 10px;
-        margin: 0px;
-    }
-    
+{
+    border: solid 1px #F2F2F2;
+    padding: 10px;
+    margin: 0px;
+}
+
 #rechercher /* Mise en forme du bouton rechercher */
-    {
-        border: solid 1px #0065FC;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px; 
-        background-color: #0065FC;
-        color: white;
-        font-size: 0.8em;
-        padding: 10px;
-        margin: 0px;
-    }
-    
-    
-        /* Filtres */
-    
-#bloc_filtres_1 /* Mise en page du bloc filtres */
-    {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-    }
-    
+{
+    border: solid 1px #0065FC;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px; 
+    background-color: #0065FC;
+    color: white;
+    font-size: 0.8em;
+    padding: 8px;
+    margin: 0px;
+}
+
+
+    /* Filtres */
+
+
 #filtres /* Mise en forme du mot "filtres" */
-    {
-        font-weight: bold;
-        font-size: 0.8em;
-        margin-right: 30px;
-    }
-    
+{
+    font-weight: bold;
+    font-size: 1em;
+    margin-right: 30px;
+}
+
+#bloc_filtres_1 /* Mise en page du bloc filtres */
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 #bloc_filtres_1_1
-    {
-        /* Mise en page */
-        display: flex;
-        /* Mise en forme du texte */
-        font-weight: bold;
-        font-size: 0.8em;
-        
-    }
+{
+    /* Mise en page */
+    display: flex;
+    /* Mise en forme du texte */
+    font-weight: bold;
+    font-size: 1em;
     
+}
+
 .bloc_filtres_1_1_1
-    {
-        /* Mise en page */
-        display: flex;
-        align-items: center; 
-        /* bordues */
-        border-top: #F2F2F2 solid  2px;
-        border-bottom: #F2F2F2 solid  2px;
-        border-right: #F2F2F2 solid  2px;
-        border-radius: 80px; 
-        /* Marges et padding */
-        margin-right: 30px;
-        padding-right: 20px;
-    }
-    
-#icon_économique, #icon_familial, #icon_romantique, #icon_animaux
-    {
-        /* Mise en page */
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-        /* Mise en forme */
-        color: #0065FC;
-        border: #DEEBFF solid 1px;
-        border-radius: 100%;
-        background-color: #DEEBFF;
-        padding: 8px;
-        width: 15px;
-        height: 15px;
-    }
-    
+{
+    /* Mise en page */
+    display: flex;
+    align-items: center; 
+    /* bordues */
+    border-top: #F2F2F2 solid  2px;
+    border-bottom: #F2F2F2 solid  2px;
+    border-right: #F2F2F2 solid  2px;
+    border-radius: 80px; 
+    /* Marges et padding */
+    margin-right: 30px;
+    padding-right: 20px;
+}
+
 .texte_filtres
-    {
-        padding-left: 10px;
-    }
-    
+{
+    padding-left: 10px;
+}
+
+#icon_économique, #icon_familial, #icon_romantique, #icon_animaux
+{
+    /* Mise en page */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* Mise en forme */
+    color: #0065FC;
+    border: #DEEBFF solid 1px;
+    border-radius: 100%;
+    background-color: #DEEBFF;
+    padding: 8px;
+    width: 15px;
+    height: 15px;
+}
+
 .bloc_filtres_1_1_1:hover /*Mise en forme des filtres au survol*/
-    {
-        /* bordues */
-        border-top: #F2F2F2 solid  2px;
-        border-bottom: #F2F2F2 solid  2px;
-        border-right: #F2F2F2 solid  2px;
-        border-radius: 80px; 
-        /* Marges et padding */
-        margin-right: 30px;
-        padding-right: 20px;
-        background-color: #F2F2F2;
-     
-    }
-    
+{
+    /* bordues */
+    border-top: #F2F2F2 solid  2px;
+    border-bottom: #F2F2F2 solid  2px;
+    border-right: #F2F2F2 solid  2px;
+    border-radius: 80px; 
+    /* Marges et padding */
+    margin-right: 30px;
+    padding-right: 20px;
+    background-color: #F2F2F2;
+ 
+}
 
     /* Information */
 
-    #information /* Mise en page texte et icone information */
-    {
-        display: flex;
-        justify-content: left;
-        align-items: baseline;
-        margin-bottom: 20px;
-        font-size: 0.9em;
-    }
+#information /* Mise en page texte et icone information */
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+#icon_information /*Mise en forme icone information */
+{
+    /* Mise en page */
+    display: flex;
+    justify-content: center;
+    /* Mise en forme */
+    font-size: 0.6em;
+    color: #0065FC;
+    border: solid 1px #F2F2F2;
+    border-radius: 100%;
+    /* Marges et padding*/
+    margin-right: 10px;
+    padding: 5px 5px 5px 5px;
+    /* Taille */
+    width: 10px;
+    height: 10px;
     
-    #icon_information /*Mise en forme icone information */
-    {
-        /* Mise en page */
-        display: flex;
-        justify-content: center;
-        /* Mise en forme */
-        font-size: 0.6em;
-        color: #0065FC;
-        border: solid 1px #F2F2F2;
-        border-radius: 100%;
-        /* Marges et padding*/
-        margin-right: 10px;
-        padding: 5px 5px 5px 5px;
-        /* Taille */
-        width: 10px;
-        height: 10px;
-        
-    }
+}
 
 
 /* SECTION 2 */
 
+#section_hébergements /* Mise en page des deux blocs */
+{
+    display: flex;
+    justify-content: space-around;
+}
+
     /* Bloc hébergement */
 
-    #Hébergements_marsaille
-    {
-        border: #F2F2F2 2px solid;
-        border-radius: 15px;
-        background-color: #F2F2F2;
-        padding: 30px;
-        width: 60%;
-    }
+#Hébergements_marsaille
+{
+    border: #F2F2F2 2px solid;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    padding: 30px;
+    width: 60%;
+}
+
+#titre_hébergements
+{
+    margin-bottom: 30px;
+}
+
+#bloc_hébergements_1
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
-    #titre_hébergements
-    {
-        margin-bottom: 30px;
-    }
-    
-    #bloc_hébergements_1
-    {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        
-    }
-    
-    .photos_hébergements
-    {
-        width: 100%;
-        height: 57%;
-        object-fit: cover;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        margin-bottom: 5px;
-    }
-    
-    .bloc_hébergement_1_1
-    {
-        border: solid 2px white;
-        border-radius: 20px;
-        background-color: white;
-        padding: 4px;
-        width: 29%;
-        max-height: 160px;
-        margin-bottom: 30px;
-    }
-    
-    #star_bleue1, #star_bleue2, #star_bleue3, #star_bleue4, #star_bleue5, #star_bleue6, #star_bleue7, #star_bleue8, #star_bleue9, #star_bleue10, #star_bleue11, #star_bleue12, #star_bleue13, #star_bleue14, #star_bleue15, #star_bleue16, #star_bleue17, #star_bleue18, #star_bleue19, #star_bleue20, #star_bleue21, #star_bleue22, #star_bleue23, #star_bleue24
-    {
-        color: #0065FC;
-    }
-    
-    #star_grise1, #star_grise2, #star_grise3, #star_grise4, #star_grise5, #star_grise6
-    {
-        color: #F2F2F2;
-    }
-    
-    .texte
-    {
-        margin: 4px;
-        font-size: 0.7em;
-    }
-    
-    .texte1
-    {
-        margin: 4px;
-        font-size: 0.7em;
-        font-weight: bold;
-    }
-    
-    .prix
-    {
-        font-weight: bold;
-    }
-    
-    .texte_gras
-    {
-        font-weight: bold;
-        margin-block-end: 0px;
-    }
+}
+
+.photos_hébergements
+{
+    width: 100%;
+    height: 57%;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.bloc_hébergements_1_1
+{
+    border: solid 2px white;
+    border-radius: 20px;
+    background-color: white;
+    padding: 4px;
+    width: 29%;
+    max-height: 160px;
+    margin-bottom: 30px;
+}
+
+#star_bleue1, #star_bleue2, #star_bleue3, #star_bleue4, #star_bleue5, #star_bleue6, #star_bleue7, #star_bleue8, #star_bleue9, #star_bleue10, #star_bleue11, #star_bleue12, #star_bleue13, #star_bleue14, #star_bleue15, #star_bleue16, #star_bleue17, #star_bleue18, #star_bleue19, #star_bleue20, #star_bleue21, #star_bleue22, #star_bleue23, #star_bleue24, #star_bleue25, #star_bleue26, #star_bleue27, #star_bleue28, #star_bleue29, #star_bleue30, #star_bleue31, #star_bleue32, #star_bleue33, #star_bleue34, #star_bleue35, #star_bleue36, #star_bleue37
+{
+    color: #0065FC;
+}
+
+#star_grise1, #star_grise2, #star_grise3, #star_grise4, #star_grise5, #star_grise6, #star_grise7, #star_grise8
+{
+    color: #F2F2F2;
+}
+
+.texte
+{
+    margin: 4px;
+    font-size: 0.7em;
+}
+
+.texte1
+{
+    margin: 4px;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.prix
+{
+    font-weight: bold;
+}
+
+.texte_gras
+{
+    font-weight: bold;
+    margin-block-end: 0px;
+}
+
+
+    /* Bloc hébergements populaires */
+
+
+#hébergements_les_plus_populaires
+{
+
+    width: 30%;
+    border: #F2F2F2 2px solid;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#bloc_hébergements_populaires_titre
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titre_hébergements_populaires
+{
+    margin-right: 100px;
+}
+
+#bloc_hébergements_populaires_1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 440px;
+}
+
+.bloc_hébergement_populaires_1_1
+{
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px white;
+    border-radius: 20px;
+    background-color: white;
+    padding: 4px;
+    width: 80%;
+    max-height: 30%;
+}
+
+.photos_hébergements_populaires
+{
+    width: 40%;
+    height: 120px;
+    object-fit: cover;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.bloc_texte_hébergements_populaires
+{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.texte2
+{
+    margin-bottom: 2px;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.texte3
+{
+    margin-bottom: 30px;
+    font-size: 0.7em;
+}
