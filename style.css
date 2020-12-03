@@ -7,7 +7,7 @@
 
 }
 
-body
+main, header
 {
     margin: 0;
     max-width: 1200px;
@@ -229,11 +229,12 @@ h1 + p /* Taille police et marge inférieure */
 {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
     /* Bloc hébergement */
 
-#Hébergements_marsaille
+#Hébergements_marseille
 {
     border: #F2F2F2 2px solid;
     border-radius: 15px;
@@ -384,4 +385,83 @@ h1 + p /* Taille police et marge inférieure */
 {
     margin-bottom: 30px;
     font-size: 0.7em;
+}
+
+
+/* SECTION 3 */
+
+#bloc_activités
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#bloc_activités_2, #bloc_activités_3, .bloc_activités_1
+{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    justify-content: space-between;
+
+}
+
+.bloc_activités_1_1, #bloc_activités_2_1, #bloc_activités_2_2, #bloc_activités_3_1, #bloc_activités_3_2
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px 6px #F2F2F2;
+}
+
+.photos_activités_verticales
+{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.photos_activités_horizontales_larges
+{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.photos_activités_horizontales
+{
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.texte4
+{
+    margin-left: 12px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+
+/* FOOTER */
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2
+}
+
+#footer
+{
+    font-size: 0.7em;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
