@@ -198,7 +198,7 @@ p /* Taille police et marge inférieure */
     {
         display: flex;
         justify-content: left;
-        align-items: center;
+        align-items: baseline;
         margin-bottom: 20px;
         font-size: 0.9em;
     }
