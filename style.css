@@ -277,7 +277,6 @@ h1 + p /* Taille police et marge inférieure */
     margin-bottom: 30px;
 }
 
-.bleu
 {
     color: #0065FC;
 }
@@ -552,5 +551,170 @@ footer
     {
         flex: 0.95;
     }
+   
+
+}
+
+
+@media screen and (max-width: 767px)
+
+{
+
+    body 
+    {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    /* FILTRES */
+
+    #bloc_filtres_1
+    {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 0.8em;
+    }
+
+    #bloc_filtres_1_1
+    {
+        flex-wrap: wrap; 
+    }
+
+    .bloc_filtres_1_1_1
+    {
+        margin-bottom: 10px;
+    }
+
+    #filtres
+    {
+        margin-bottom: 20px;
+    }
+
+    /* SECTION HÉBERGEMENTS */
+
+    #section_hébergements /* Mise en page des deux blocs */
+    {
+        flex-direction: column-reverse;
+        align-items: center;    
+        margin-right: 0px;
+        margin-left: 0px;
+
+    }
+
+        /* Les plus populaires */
+
+    #hébergements_les_plus_populaires
+
+    {
+        background-color: #F2F2F2;
+        border: #F2F2F2 2px solid;
+        border-radius: 0px;
+        padding-top: 10px;
+        width: auto;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .bloc_hébergement_populaires_1_1 
+    {
+        width: 90%;
+        justify-content: flex-start;
+    }
+
+    #bloc_hébergements_populaires_titre
+    {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #titre_hébergements_populaires
+    {
+        flex: 0.95;
+    }
+
+    #titre_hébergements_populaires
+    {
+        margin-left: 30px;
+    }
+
+
+    /* Hébergements à Marseille */
+
+    #Hébergements_marseille
+    {
+        width: auto;
+        padding-right: 0;
+        padding-left: 0;
+        background-color: white;
+        border: white 2px solid;
+        border-radius: 0px;
+        padding-top: 10px;
+        
+    
+    }
+
+    #bloc_hébergements_1
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .bloc_hébergements_1_1
+    {
+        width: 90%;
+        max-height: 20%;
+        box-shadow: 6px 6px 6px 6px #F2F2F2
+    }
+
+    .photos_hébergements
+    {
+        width: 100%;
+        height: 130px;
+    }
+
+    .titre_hébergements, .texte_gras
+    {
+        margin-left: 30px;
+    }
+
+
+    /* ACTIVITÉS */
+
+
+    #ancre_Activités
+    {
+        margin-left: 30px;
+    }
+    #bloc_activités
+    {
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+    }
+
+    .bloc_activités_1, #bloc_activités_2, #bloc_activités_3
+    {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .photos_activités_verticales, .photos_activités_horizontales_larges, .photos_activités_horizontales
+    {
+       height: 200px;
+    }
+
+
+   
+    /* Footer */
+
+    footer 
+    {
+        flex-direction: column;
+        padding-right: 30px;
+    }
+
+   
 
 }
