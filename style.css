@@ -277,12 +277,12 @@ h1 + p /* Taille police et marge inférieure */
     margin-bottom: 30px;
 }
 
-#star_bleue1, #star_bleue2, #star_bleue3, #star_bleue4, #star_bleue5, #star_bleue6, #star_bleue7, #star_bleue8, #star_bleue9, #star_bleue10, #star_bleue11, #star_bleue12, #star_bleue13, #star_bleue14, #star_bleue15, #star_bleue16, #star_bleue17, #star_bleue18, #star_bleue19, #star_bleue20, #star_bleue21, #star_bleue22, #star_bleue23, #star_bleue24, #star_bleue25, #star_bleue26, #star_bleue27, #star_bleue28, #star_bleue29, #star_bleue30, #star_bleue31, #star_bleue32, #star_bleue33, #star_bleue34, #star_bleue35, #star_bleue36, #star_bleue37
+.bleu
 {
     color: #0065FC;
 }
 
-#star_grise1, #star_grise2, #star_grise3, #star_grise4, #star_grise5, #star_grise6, #star_grise7, #star_grise8
+.gris
 {
     color: #F2F2F2;
 }
@@ -465,3 +465,5 @@ footer
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
+
