@@ -467,3 +467,90 @@ footer
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+
+    body 
+    {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #bloc_filtres_1
+    {
+        font-size: 0.75em;
+    }
+
+    #filtres
+    {
+        margin-right: 18px;
+    }
+
+    .bloc_filtres_1_1_1
+    {
+        margin-right: 18px;
+    }
+
+    .bloc_filtres_1_1_1:hover 
+    {
+        margin-right: 18px;
+    }
+
+    #section_hébergements /* Mise en page des deux blocs */
+    {
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    #Hébergements_marseille 
+    {
+        width: auto;
+        margin-bottom: 30px;
+        padding-top: 10px;
+    }
+    
+
+    #bloc_hébergements_populaires_1
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+    }
+    
+    #hébergements_les_plus_populaires
+    {
+        width: auto;
+        padding-top: 10px;
+    
+    }
+
+    .bloc_hébergement_populaires_1_1
+    {
+        width: 30%;
+    }
+
+    #bloc_hébergements_populaires_titre
+    {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    #titre_hébergements_populaires
+    {
+        margin-left: 17px;
+    }
+
+    .bleu, .gris
+    {
+        font-size: 0.8em;
+    }
+
+    #titre_hébergements_populaires
+    {
+        flex: 0.95;
+    }
+
+}
