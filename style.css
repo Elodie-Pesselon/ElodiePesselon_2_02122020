@@ -563,9 +563,70 @@ footer
 
     body 
     {
-        margin-right: 20px;
-        margin-left: 20px;
+        margin: 0px;
     }
+
+    header, #bloc_recherche, #bloc_filtres_1, #information
+    {
+        margin-left: 20px; 
+        margin-right: 20px;
+    }
+
+    /* HEADER */
+
+    header
+    {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    #logo:nth-child(1)
+    {
+        order: 1;
+        margin-right: 55%;
+    }
+
+    #Inscription:nth-child(4)
+    {
+        order:  2;
+    }
+
+    #Hébergements:nth-child(2)
+    {
+        order: 3;
+        padding-bottom: 10px;
+        border-bottom:  #F2F2F2 solid 2px;
+        border-top: none;
+        text-align: center;
+        width: 50%;
+        margin: 0px;
+
+    }
+
+    #Activités:nth-child(3)
+    {
+        order: 4;
+        padding-bottom: 10px;
+        border-bottom:  #F2F2F2 solid 2px;
+        border-top: none;
+        text-align: center;
+        width: 50%;
+        margin: 0px;
+    }
+
+    
+    #Activités:hover, #Hébergements:hover
+
+    {
+        padding-bottom: 10px;
+        border-bottom:  #0065FC solid 2px;
+        border-top: none;
+    }
+   
+
+
 
     /* FILTRES */
 
@@ -573,7 +634,7 @@ footer
     {
         flex-direction: column;
         align-items: flex-start;
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     #bloc_filtres_1_1
@@ -701,6 +762,12 @@ footer
         margin-bottom: 30px;
     }
 
+
+    #bloc_activités_2_2, #bloc_activités_3_2
+    {
+        margin-top: 30px;
+    }
+
     .photos_activités_verticales, .photos_activités_horizontales_larges, .photos_activités_horizontales
     {
        height: 200px;
@@ -713,7 +780,7 @@ footer
     footer 
     {
         flex-direction: column;
-        padding-right: 30px;
+        padding-left: 30px;
     }
 
    
