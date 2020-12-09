@@ -7,53 +7,36 @@
 
 }
 
-main, header
-{
-    margin: 0;
-    max-width: 1200px;
-    margin: auto;
-    width: 100%;
-}
 
+/* MISE EN FORME GÉNÉRALE */
 
 * /* Police de la page */
 {
     font-family: 'ralewayregular', Arial, Helvetica, sans-serif;
 }
 
+body 
+{
+    margin: 0;
+    max-width: 1440px;
+    width: 100%;
+    justify-content: center;
+}
+
+header, main
+{
+    margin-right: 30px;
+    margin-left: 30px; 
+}
+
+a 
+{
+    text-decoration: none;
+    color: black;
+}
 
 
 /* HEADER */
-
-#Hébergements, #Activités /* Mise en forme onglets du menu */
-{
-    color: black;
-    text-decoration: none;
-    margin-right: 30px;
-    padding-top: 20px;
-    border-top: transparent solid 2px;
-}
-
-#Inscription /* Mise en forme onglet inscription */
-{
-    font-weight: bold;
-    color: #0065FC;
-    text-decoration: none;
-    margin-right: 30px;
-    padding-top: 22px;
-}
-
-#Hébergements:hover, #Activités:hover /* Mise en forme onglets du menu au survol */
-{
-    color: #0065FC;
-    border-top: #0065FC solid 2px;
-}
-
-#logo /* marge du logo*/
-{
-    margin-right: auto;
-    padding-top: 8px;
-}
 
 header /* Disposition du header */
 {
@@ -62,9 +45,37 @@ header /* Disposition du header */
     margin-bottom: 45px;
 }
 
+#logo /* Mise en page du logo*/
+{
+    margin-right: auto;
+    padding-top: 8px;
+}
+
+#Hébergements, #Activités /* Mise en forme onglets "Héberhements" et "Activités" */
+{
+    margin-right: 30px;
+    padding-top: 20px;
+    border-top: transparent solid 2px;
+}
+
+#Hébergements:hover, #Activités:hover /* Au survol : mise en forme onglets "Héberhements" et "Activités" */
+{
+    color: #0065FC;
+    border-top: #0065FC solid 2px;
+}
+
+#Inscription /* Mise en page et mise en forme onglet inscription */
+{
+    font-weight: bold;
+    color: #0065FC;
+    padding-top: 22px;
+}
+
+
 /* SECTION 1 */
 
-    /*Formulaire*/
+
+/* Bloc recherche */
 
 h1 /* Taille police titre h1 */
 {
@@ -87,74 +98,69 @@ h1 + p /* Taille police et marge inférieure */
 
 #icon_localisation /* Mise en forme de l'icone localisation */
 {
-    border:  0px solid #F2F2F2 ; /* Ajout d'une bordure */
     border-top-left-radius: 12px; /* Création de l'arrondi de la bordure */
     border-bottom-left-radius: 12px; /* Création de l'arrondi de la bordure */
     background-color: #F2F2F2;
-    margin: 0px;
-    padding: 8px;
+    padding: 9px;
 }
 
 #destination /* Mise en forme du champs de recherche */
 {
     border: solid 1px #F2F2F2;
     padding: 10px;
-    margin: 0px;
 }
 
 #rechercher /* Mise en forme du bouton rechercher */
 {
-    border: solid 1px #0065FC;
+    border: solid 2px #0065FC;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px; 
     background-color: #0065FC;
     color: white;
     font-size: 0.8em;
-    padding: 8px;
-    margin: 0px;
+    padding: 9px;
 }
 
 
-    /* Filtres */
+/* Filtres */
 
-
-#filtres /* Mise en forme du mot "filtres" */
-{
-    font-weight: bold;
-    font-size: 1em;
-    margin-right: 30px;
-}
-
-#bloc_filtres_1 /* Mise en page du bloc filtres */
+#bloc_filtres /* Mise en page et mise en forme du bloc filtres */
 {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-}
-
-#bloc_filtres_1_1
-{
-    /* Mise en page */
-    display: flex;
-    /* Mise en forme du texte */
     font-weight: bold;
-    font-size: 1em;
-    
 }
 
-.bloc_filtres_1_1_1
+#mot_filtres /* Mise en forme du mot "filtres" */
+{
+    margin-right: 30px;
+}
+
+
+#filtres
+{
+    display: flex;
+}
+
+.tuile-filtre
 {
     /* Mise en page */
     display: flex;
     align-items: center; 
     /* bordues */
-    border-top: #F2F2F2 solid  2px;
-    border-bottom: #F2F2F2 solid  2px;
-    border-right: #F2F2F2 solid  2px;
+    border-top: #F2F2F2 solid  1.5px;
+    border-bottom: #F2F2F2 solid  1.5px;
+    border-right: #F2F2F2 solid  1.5px;
     border-radius: 80px; 
     /* Marges et padding */
     margin-right: 30px;
     padding-right: 20px;
+}
+
+.tuile-filtre:hover /*Mise en forme des filtres au survol*/
+{
+    background-color: #F2F2F2;
 }
 
 .texte_filtres
@@ -170,7 +176,6 @@ h1 + p /* Taille police et marge inférieure */
     align-items: center; 
     /* Mise en forme */
     color: #0065FC;
-    border: #DEEBFF solid 1px;
     border-radius: 100%;
     background-color: #DEEBFF;
     padding: 8px;
@@ -178,21 +183,8 @@ h1 + p /* Taille police et marge inférieure */
     height: 15px;
 }
 
-.bloc_filtres_1_1_1:hover /*Mise en forme des filtres au survol*/
-{
-    /* bordues */
-    border-top: #F2F2F2 solid  2px;
-    border-bottom: #F2F2F2 solid  2px;
-    border-right: #F2F2F2 solid  2px;
-    border-radius: 80px; 
-    /* Marges et padding */
-    margin-right: 30px;
-    padding-right: 20px;
-    background-color: #F2F2F2;
- 
-}
 
-    /* Information */
+/* Information */
 
 #information /* Mise en page texte et icone information */
 {
@@ -203,7 +195,7 @@ h1 + p /* Taille police et marge inférieure */
     font-size: 0.9em;
 }
 
-#icon_information /*Mise en forme icone information */
+#icon_information /* Mise en forme icone information */
 {
     /* Mise en page */
     display: flex;
@@ -219,7 +211,6 @@ h1 + p /* Taille police et marge inférieure */
     /* Taille */
     width: 10px;
     height: 10px;
-    
 }
 
 
@@ -228,32 +219,64 @@ h1 + p /* Taille police et marge inférieure */
 #section_hébergements /* Mise en page des deux blocs */
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 50px;
 }
 
-    /* Bloc hébergement */
-
-#Hébergements_marseille
+#Hébergements_marseille, #Hébergements_les_plus_populaires
 {
-    border: #F2F2F2 2px solid;
     border-radius: 15px;
     background-color: #F2F2F2;
-    padding: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.prix /* Mise en gras du prix */
+{
+    font-weight: bold;
+}
+
+.bleu /* Couleur des étoiles */
+{
+    color: #0065FC;
+}
+
+.gris /* Couleur des étoiles */
+{
+    color: #F2F2F2;
+}
+
+
+/* Bloc hébergement à Marseille */
+
+#Hébergements_marseille /* Mise en forme du bloc "Hébergements à Mareille" */
+{
     width: 60%;
 }
 
-#titre_hébergements
+.titre_hébergements /* Mise en forme du titre */
 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-#bloc_hébergements_1
+#Bloc_hébergements /* Mise en forme du bloc comprenant les tuiles hébergement */
 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+}
+
+.Tuile_hébergement /* Mise en forme de chaque tuile hébergement */
+{
+    border: solid 2px white;
+    border-radius: 20px;
+    background-color: white;
+    padding: 4px;
+    width: 29%;
+    max-height: 160px;
+    margin-bottom: 42px;
 }
 
 .photos_hébergements
@@ -264,27 +287,6 @@ h1 + p /* Taille police et marge inférieure */
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     margin-bottom: 5px;
-}
-
-.bloc_hébergements_1_1
-{
-    border: solid 2px white;
-    border-radius: 20px;
-    background-color: white;
-    padding: 4px;
-    width: 29%;
-    max-height: 160px;
-    margin-bottom: 30px;
-}
-
-.bleu
-{
-    color: #0065FC;
-}
-
-.gris
-{
-    color: #F2F2F2;
 }
 
 .texte
@@ -300,33 +302,21 @@ h1 + p /* Taille police et marge inférieure */
     font-weight: bold;
 }
 
-.prix
-{
-    font-weight: bold;
-}
-
 .texte_gras
 {
     font-weight: bold;
-    margin-block-end: 0px;
 }
 
 
-    /* Bloc hébergements populaires */
+/* Bloc hébergements populaires */
 
 
-#hébergements_les_plus_populaires
+#Hébergements_les_plus_populaires
 {
-
-    width: 30%;
-    border: #F2F2F2 2px solid;
-    border-radius: 15px;
-    background-color: #F2F2F2;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 30%;   
 }
 
-#bloc_hébergements_populaires_titre
+#bloc_titre_hébergements_populaires
 {
     display: flex;
     align-items: center;
@@ -338,7 +328,7 @@ h1 + p /* Taille police et marge inférieure */
     margin-right: 100px;
 }
 
-#bloc_hébergements_populaires_1
+#bloc_hébergements_populaires
 {
     display: flex;
     flex-direction: column;
@@ -347,7 +337,7 @@ h1 + p /* Taille police et marge inférieure */
     height: 440px;
 }
 
-.bloc_hébergement_populaires_1_1
+.tuile_hébergement_populaire
 {
     display: flex;
     justify-content: space-between;
@@ -390,6 +380,8 @@ h1 + p /* Taille police et marge inférieure */
 
 /* SECTION 3 */
 
+
+
 #bloc_activités
 {
     display: flex;
@@ -398,16 +390,15 @@ h1 + p /* Taille police et marge inférieure */
     margin-bottom: 60px;
 }
 
-#bloc_activités_2, #bloc_activités_3, .bloc_activités_1
+#bloc_activités_colonne_1, #bloc_activités_colonne_2, .bloc_activités_paysage
 {
     display: flex;
     flex-direction: column;
     width: 23%;
     justify-content: space-between;
-
 }
 
-.bloc_activités_1_1, #bloc_activités_2_1, #bloc_activités_2_2, #bloc_activités_3_1, #bloc_activités_3_2
+.tuile_activité_paysage, #tuile_activités_colonne_1_1, #tuile_activités_colonne_1_2, #tuile_activités_colonne_2_1, #tuile_activités_colonne_2_2
 {
     display: flex;
     flex-direction: column;
@@ -415,31 +406,27 @@ h1 + p /* Taille police et marge inférieure */
     box-shadow: 6px 6px 6px 6px #F2F2F2;
 }
 
-.photos_activités_verticales
+.photos_activités_horizontales_larges, .photos_activités_verticales, .photos_activités_horizontales
 {
     width: 100%;
-    height: 300px;
     object-fit: cover;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
+}
+
+.photos_activités_verticales
+{
+    height: 300px;
 }
 
 .photos_activités_horizontales_larges
 {
-    width: 100%;
     height: 120px;
-    object-fit: cover;
-    border-top-right-radius: 12px;
-    border-top-left-radius: 12px;
 }
 
 .photos_activités_horizontales
 {
-    width: 100%;
     height: 90px;
-    object-fit: cover;
-    border-top-right-radius: 12px;
-    border-top-left-radius: 12px;
 }
 
 .texte4
