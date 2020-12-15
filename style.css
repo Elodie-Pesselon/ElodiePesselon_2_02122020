@@ -15,6 +15,13 @@
     font-family: 'ralewayregular', Arial, Helvetica, sans-serif;
 }
 
+input 
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 body 
 {
     margin: 0;
@@ -123,6 +130,11 @@ h1 + p /* Taille police et marge inférieure */
     color: white;
     font-size: 0.8em;
     padding: 9px;
+}
+
+#rechercher i
+{
+    display: none;
 }
 
 
@@ -595,6 +607,23 @@ footer
     /* BLOC RECHERCHE */ 
 
    
+    #rechercher /* Mise en forme du bouton rechercher */
+    {  
+        border-radius: 12px;
+       width: 39px;
+    }
+
+    #rechercher i
+    {
+        display: inline;
+    }
+
+    #rechercher span 
+    {
+        display: none;
+    }
+
+
     #Titre_bloc_recherche, .Texte_bloc_recherche, #formulaire
     {
         margin-right: 20px;
