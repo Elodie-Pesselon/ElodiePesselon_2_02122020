@@ -610,7 +610,9 @@ footer
     #rechercher /* Mise en forme du bouton rechercher */
     {  
         border-radius: 12px;
-       width: 39px;
+        width: 39px;
+        position: relative;
+        left: -12px;
     }
 
     #rechercher i
