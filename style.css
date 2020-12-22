@@ -349,7 +349,6 @@ h1 + p /* Taille police et marge inférieure */
 .tuile_hébergement_populaire
 {
     display: flex;
-    justify-content: space-between;
     border: solid 2px white;
     border-radius: 20px;
     background-color: white;
