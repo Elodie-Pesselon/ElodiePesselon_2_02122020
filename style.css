@@ -58,7 +58,7 @@ header /* Disposition du header */
 
 #logo /* Mise en page du logo*/
 {
-    margin-right: auto;
+    margin: 0 auto 0 0;
     padding-top: 8px;
 }
 
